@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;1,500&family=Outfit&family=Sixtyfour&display=swap');
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.stp {
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.st {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient( hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    width: 365px;
+    height: 512px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.sec {
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-radius: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.sec h1 {
+    font-size: 60px;
+    margin-bottom: 0;
+    color: white;
+}
+
+.sec p {
+    margin: 0px;
+    color: rgba(255, 255, 255, 0.69);
+}
+
+.text {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+.text p {
+    color: rgb(255, 255, 255, 0.7);
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.Sum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    width: 365px;
+    height: 512px;
+    gap: 15px;
+    box-shadow: 1px 1px 3px 1px  rgb(243, 242, 246) ;
+    border-radius: 20px;
+    font-size: 18px;    
+}
+
+.d {
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    margin: 0;
+    border-radius: 10px;
+    width: 285px;
+    align-items: center;
+    float: right;
+}
+
+h4 {
+    margin-bottom: 10px;
+    margin-right: 200px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.r {
+    background-color: hsl(0, 100%, 67%, 0.1);
+    cursor: pointer;
+    color: hsl(0, 100%, 67%);
+}
+
+.m {
+    background-color: hsl(39, 100%, 56%, 0.1);
+    cursor: pointer;
+    color: hsl(39, 100%, 56%);
+}
+
+.v {
+    background-color: hsl(166, 100%, 37%, 0.1);
+    cursor: pointer;
+    color: hsl(166, 100%, 37%);
+}
+
+.i {
+    background-color: hsl(234, 85%, 45%, 0.1);
+    cursor: pointer;
+    color: hsl(234, 85%, 45%);
+}
+
+button {
+    text-align: center;
+    background-color: rgb(30, 21, 65);
+    color: aliceblue;
+    width: 285px;
+    height: 55px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+button:hover {
+    transition-duration: 0.4s;
+    background-color: hsla(256, 72%, 46%, 1)
+}
+
+p {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+img {
+    float: left;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.w {
+    margin-right: 10px;
+    color: black;
+}
+
+span {
+    font-weight: bold;
+}
+
+@media(max-width:480px) {
+    .main{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .st {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    .Sum {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+}
